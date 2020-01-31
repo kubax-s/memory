@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 16.66vh;
+    border: 5px solid lightgray;
+}
+
+@media (orientation: portrait) {
+    div {
+        flex-basis: 30%;
+        height: 8.33vh;
+    }
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.darkslategray {
+    background-color: darkslategray;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.darkolivegreen {
+    background-color: darkolivegreen;
+}
+
+.maroon {
+    background-color: maroon;
+}
+
+.tan {
+    background-color: tan;
+}
+
+.khaki {
+    background-color: khaki;
+}
+
+.navy {
+    background-color: navy;
+}
+
+.mediumpurple {
+    background-color: mediumpurple;
+}
+
+.lightsteelblue {
+    background-color: lightsteelblue;
+}
+
+.off {
+    background-color: lightgray;
+}
+
+.hidden {
+    background-color: black;
+}

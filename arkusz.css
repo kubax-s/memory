@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.question {
+    color: black;
+    background-color: gray;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 25px;
+    border: 3px inset black;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.level {
+    color: black;
+    background-color: gray;
+    text-align: center;
+    font-size: 50px;
+    border: 3px outset black;
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.level:hover {
+    border: 3px inset black;
+}
+
+.levels {
+    margin: 15% auto;
+    display: block;
+}
